@@ -109,5 +109,5 @@ while True:
         
 
 print("You have reached the end of the world of sesbian lex.\nI hope you enjoyed. Come Again and try to pick different options for a different experience.\n I love you, Jamal could never!\n #saynotomen")
-print("As a souvinier, here's a picture of shrek. Bye Bye!")
+print("As a souvinier, here's a picture of shrek. Bye Bye!!")
 print(shrek)
