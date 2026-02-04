@@ -1,0 +1,11 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: pink;
+}
+
+p {
+    color: black;
+    font-size: 200px;
+    align-items: center;
+}
