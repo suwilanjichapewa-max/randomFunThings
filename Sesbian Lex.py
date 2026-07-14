@@ -81,7 +81,7 @@ shrek = '''
 print("Hello My dear wife Nziza Tayali\nWelcome to the world of Sesbian Lex\n \n \n")
 print(nziza)
 print(heart)
-print(suwi)
+print(Suwi)
 
 question1 = int(input("How often to you flick your bean?(Enter the number of the option)\n 1. Once a week\n 2. More than 10 times a month\n 3. 3 times a week\n 4. Option Not available\n 5. I'd rather not say\n"))
 if question1 == 1:
