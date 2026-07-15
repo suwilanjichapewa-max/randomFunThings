@@ -16,7 +16,20 @@ if decision == "espresso":
     waterOg -= water
     #MilkOg =- milk
     CoffeeOg -= coffee
+    print("Here's your espresso")
+    print(f"current water: {waterOg}")
+    print(f"current milk: {MilkOg}")
+    print(f"current coffee: {CoffeeOg}")
 
+elif decision == "latte":
+    water = MENU["latte"]["ingredients"]["water"]
+    milk = MENU["latte"]["ingredients"]["milk"]
+    coffee = MENU["latte"]["ingredients"]["coffee"]
+    
+    waterOg -= water
+    MilkOg =- milk
+    CoffeeOg -= coffee
+    print("Here's your latte")
     print(f"current water: {waterOg}")
     print(f"current milk: {MilkOg}")
     print(f"current coffee: {CoffeeOg}")
