@@ -33,3 +33,16 @@ elif decision == "latte":
     print(f"current water: {waterOg}")
     print(f"current milk: {MilkOg}")
     print(f"current coffee: {CoffeeOg}")
+
+elif decision == "cappuccino":
+    water = MENU["cappuccino"]["ingredients"]["water"]
+    milk = MENU["cappuccino"]["ingredients"]["milk"]
+    coffee = MENU["cappuccino"]["ingredients"]["coffee"]
+    
+    waterOg -= water
+    MilkOg =- milk
+    CoffeeOg -= coffee
+    print("Here's your cappuccino")
+    print(f"current water: {waterOg}")
+    print(f"current milk: {MilkOg}")
+    print(f"current coffee: {CoffeeOg}")
