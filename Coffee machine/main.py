@@ -55,18 +55,23 @@ while on:
         milk = MENU["cappuccino"]["ingredients"]["milk"]
         coffee = MENU["cappuccino"]["ingredients"]["coffee"]
         
-        waterOg -= water
-        MilkOg -= milk
-        CoffeeOg -= coffee
-        print("Here's your cappuccino")
-        print(f"current water: {waterOg}")
-        print(f"current milk: {MilkOg}")
-        print(f"current coffee: {CoffeeOg}")
-
+        if waterOg > water:
+            if MilkOg > milk:
+                if CoffeeOg > coffee:
+                    waterOg -= water
+                    MilkOg -= milk
+                    CoffeeOg -= coffee
+                    print("Here's your cappuccino")
+                    print(f"current water: {waterOg}")
+                    print(f"current milk: {MilkOg}")
+                    print(f"current coffee: {CoffeeOg}")
+                else:
+                    print(f"Not enough supplies to make {decision}")
     elif decision == "report":
         print(f"current water: {waterOg}")
         print(f"current milk: {MilkOg}")
         print(f"current coffee: {CoffeeOg}")
   
     elif decision == "off":
+        print("Goodbye!")
         on = False
