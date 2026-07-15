@@ -29,9 +29,17 @@ while on:
         #milk = MENU["espresso"]["ingredients"]["milk"]
         coffee = MENU["espresso"]["ingredients"]["coffee"]
         
-        waterOg -= water
-        #MilkOg =- milk
-        CoffeeOg -= coffee
+        if waterOg > water and MilkOg > milk and CoffeeOg > coffee:
+            waterOg -= water
+            MilkOg -= milk
+            CoffeeOg -= coffee
+            print("Here's your cappuccino")
+            print(f"current water: {waterOg}")
+            print(f"current milk: {MilkOg}")
+            print(f"current coffee: {CoffeeOg}")
+        else:
+                    print(f"Not enough supplies to make {decision}")
+                    
         print("Here's your espresso")
         print(f"current water: {waterOg}")
         print(f"current milk: {MilkOg}")
@@ -42,9 +50,17 @@ while on:
         milk = MENU["latte"]["ingredients"]["milk"]
         coffee = MENU["latte"]["ingredients"]["coffee"]
         
-        waterOg -= water
-        MilkOg -= milk
-        CoffeeOg -= coffee
+        if waterOg > water and MilkOg > milk and CoffeeOg > coffee:
+            waterOg -= water
+            MilkOg -= milk
+            CoffeeOg -= coffee
+            print("Here's your cappuccino")
+            print(f"current water: {waterOg}")
+            print(f"current milk: {MilkOg}")
+            print(f"current coffee: {CoffeeOg}")
+        else:
+                    print(f"Not enough supplies to make {decision}")
+
         print("Here's your latte")
         print(f"current water: {waterOg}")
         print(f"current milk: {MilkOg}")
@@ -55,17 +71,15 @@ while on:
         milk = MENU["cappuccino"]["ingredients"]["milk"]
         coffee = MENU["cappuccino"]["ingredients"]["coffee"]
         
-        if waterOg > water:
-            if MilkOg > milk:
-                if CoffeeOg > coffee:
-                    waterOg -= water
-                    MilkOg -= milk
-                    CoffeeOg -= coffee
-                    print("Here's your cappuccino")
-                    print(f"current water: {waterOg}")
-                    print(f"current milk: {MilkOg}")
-                    print(f"current coffee: {CoffeeOg}")
-                else:
+        if waterOg > water and MilkOg > milk and CoffeeOg > coffee:
+            waterOg -= water
+            MilkOg -= milk
+            CoffeeOg -= coffee
+            print("Here's your cappuccino")
+            print(f"current water: {waterOg}")
+            print(f"current milk: {MilkOg}")
+            print(f"current coffee: {CoffeeOg}")
+        else:
                     print(f"Not enough supplies to make {decision}")
     elif decision == "report":
         print(f"current water: {waterOg}")
