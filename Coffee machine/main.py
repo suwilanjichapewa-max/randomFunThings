@@ -48,7 +48,7 @@ while on:
         if waterOg <= water:
              print("Not enough water!")
         if CoffeeOg <= coffee:
-             print("Not enough coffee!")
+             print("Not enough Coffee!")
         if MilkOg <= milk:
              print("Not enough Milk!")
             
