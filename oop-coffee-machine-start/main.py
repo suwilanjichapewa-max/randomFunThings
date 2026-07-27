@@ -4,5 +4,3 @@ from money_machine import MoneyMachine
 
 decision = input("What would you like? (espresso/latte/cappuccino): ").lower()
 cc = Menu.get_items
-for i in cc:
-    print(i)
