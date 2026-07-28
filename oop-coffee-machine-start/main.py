@@ -3,6 +3,6 @@ from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
 
 decision = input("What would you like?? (espresso/latte/cappuccino): ").lower()
-cc = Menu.get_items(self=decision)
+cc = Menu.find_drink(decision)
 for i in cc:
     print(i)
