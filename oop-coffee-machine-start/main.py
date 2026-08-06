@@ -8,7 +8,7 @@ menu = Menu()
 
 isOn = True
 
-while is_on:
+while isOn:
     options = menu.get_items()
     choice = input(f"what would you like?? ({options}): ")
     if choice == "off":
