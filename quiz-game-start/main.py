@@ -4,4 +4,4 @@ class Question:
         self.question = question
 
     def quiz (self, question):
-        print("answer")
+        print("answer!")
