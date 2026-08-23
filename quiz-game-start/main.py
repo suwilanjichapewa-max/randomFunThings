@@ -6,3 +6,5 @@ class Question:
     def quiz (self, question):
         print("Answer!")
         question
+
+    quiz(answer)
